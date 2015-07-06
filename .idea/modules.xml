@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/07-06-javascript-atomics.iml" filepath="$PROJECT_DIR$/.idea/07-06-javascript-atomics.iml" />
       <module fileurl="file://$USER_HOME$/Code/07-06-javascript-atomics/.idea/07-06-javascript-project.iml" filepath="$USER_HOME$/Code/07-06-javascript-atomics/.idea/07-06-javascript-project.iml" />
     </modules>
   </component>
