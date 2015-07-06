@@ -25,8 +25,8 @@
       <file leaf-file-name="global.js" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Code/07-06-javascript-atomics/intro-to-js/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.8331375">
-              <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+            <state vertical-scroll-proportion="-0.017626323">
+              <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -69,8 +69,8 @@
         <option value="$USER_HOME$/Code/07-06-javascript-project/index.html" />
         <option value="$USER_HOME$/Code/07-06-javascript-project/global.js" />
         <option value="$USER_HOME$/Code/07-06-javascript-atomics/intro-to-js/global.css" />
-        <option value="$USER_HOME$/Code/07-06-javascript-atomics/intro-to-js/global.js" />
         <option value="$USER_HOME$/Code/07-06-javascript-atomics/intro-to-js/index.html" />
+        <option value="$USER_HOME$/Code/07-06-javascript-atomics/intro-to-js/global.js" />
       </list>
     </option>
   </component>
@@ -316,8 +316,8 @@
     </entry>
     <entry file="file://$USER_HOME$/Code/07-06-javascript-atomics/intro-to-js/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.8331375">
-          <caret line="105" column="1" selection-start-line="105" selection-start-column="1" selection-end-line="105" selection-end-column="1" />
+        <state vertical-scroll-proportion="-0.017626323">
+          <caret line="0" column="27" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
           <folding />
         </state>
       </provider>

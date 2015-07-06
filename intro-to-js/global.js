@@ -1,5 +1,4 @@
 window.onload = function(){
-
     // Collection of all squares on the board.
     var squares = document.getElementsByTagName('td');
 
