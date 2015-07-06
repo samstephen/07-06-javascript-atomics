@@ -14,3 +14,14 @@ console.log( "5 < 12 is " + (5 < 12) );
 console.log( "5 <= 12 is " + (5 <= 12) );
 console.log( "5 > 12 is " + (5 > 12));
 console.log( "5 >= 12 is " + (5 >= 12));
+
+var password = "monkeybrains";
+
+var userPassword = prompt("What is the password");
+
+if (password === userPassword) {
+  alert("That is correct");
+} else {
+  alert("Sorry, the password is actually " + password);
+
+}
