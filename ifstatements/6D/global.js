@@ -34,6 +34,37 @@ if (userAge  <  0)  {
 }
 
 
+<<<<<<< Local Changes
+<<<<<<< Local Changes
+
+ if userAge >= 21 {
+   console.log("Please don't drink and drive");
+ }
+ 
+ if userAge >= 25 {
+   console.log("You can rent a car");
+ 
+ if userAge >= 16 {
+   console.log("You're eligible for a driver's license");
+ }
+ 
+ if userAge < 16 {
+   console.log("You can't drive yet, but you'll be able to in a few years");
+ }
+ 
+ if userAge < 0 {
+   console.log("You haven't been born yet");
+ }
+ 
+ if (userAge = NaN) {
+   console.log("Sorry, but that's not a number");
+ }
+ 
+
+=======
+>>>>>>> External Changes
+=======
+>>>>>>> External Changes
 // For example, if I am 27, I should get the messages for 16, 21, and 25. If I am 23, I should get the messages for 16 and 21, but not 25, 0, or negative.
 
 // These messages can be displayed as alerts or as logs to the console.
