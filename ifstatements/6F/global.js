@@ -30,14 +30,13 @@ whereas a triangle of 3, 4, 7 is not (since 3 + 4 is not greater than 7).
 */
 
 /*
-program now tests for nan on all legs
+program now tests for nan on all legs & for nil/negative values of legs
 */
 
-if ( isNaN(firstLeg) || isNaN(secondLeg) || isNaN(thirdLeg) ) {
+if ( firstLeg <= 0 | isNaN(firstLeg) || secondLeg <= 0 | isNaN(secondLeg) || thirdLeg <= 0 | isNaN(thirdLeg) ) {
     alert(invalidInput);
 } else if (thirdLeg < (firstLeg + secondLeg) || firstLeg < (thirdLeg + secondLeg) || secondLeg < (thirdLeg + firstLeg)) {
     alert(valid);
 } else {
     alert(invalid);
 }
-
