@@ -8,6 +8,7 @@ It's probably worthwhile to output the results of your behind-the-scenes calcula
 
 var valid = "This is a valid triangle";
 var invalid = "This is not a valid triangle";
+var invalidInput = "Not proper input";
 
 var firstLeg = prompt("Make a triangle, Enter First leg's length: ");
 firstLeg = parseFloat(firstLeg);
@@ -28,9 +29,15 @@ For example: a triangle of 3, 4, 5 (in whatever units you want) is valid (since 
 whereas a triangle of 3, 4, 7 is not (since 3 + 4 is not greater than 7).
 */
 
-if (thirdLeg < (firstLeg + secondLeg) || firstLeg < (thirdLeg + secondLeg) || secondLeg < (thirdLeg + firstLeg)) {
-	alert(valid);
+/*
+program now tests for nan on all legs
+*/
+
+if ( isNaN(firstLeg) || isNaN(secondLeg) || isNaN(thirdLeg) ) {
+    alert(invalidInput);
+} else if (thirdLeg < (firstLeg + secondLeg) || firstLeg < (thirdLeg + secondLeg) || secondLeg < (thirdLeg + firstLeg)) {
+    alert(valid);
 } else {
-	alert(invalid);
+    alert(invalid);
 }
 
