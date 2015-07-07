@@ -9,19 +9,19 @@
 <h1>JS Atomic 6E: Driver's Ed, Part 2</h1>
 
 
-<h2>Does it matter what order your if-statements are in?</h2>
+<h2>Does it matter what order your if / else if statements happen? If you reorder them, does your program still produce correct output?</h2>
 <p>
-	If 25 is after 21 and user is 26, the log for userAge >= 21 will post before the log for userAge >= 25. Order does matter. If variables store the returns then controlling the order of console logs.
+	no. only one of the statements will run depending on the value and comparison. if reordered it will produce correct output
 </p>
 
-<h2>When testing ranges, did you use &&, ||, or something else entirely (e.g. nested if-statements)? If you used &&, why is that a better choice than || (and vice-versa)?</h2>
+<h2>What's wrong with this conditional: if (age < 16 && age > 21)?</h2>
 <p>
-	I found that nested if statements helped the most - offered the most control.
+	Age cannot be less than 16 and greater than 21 at the same time
 </p>
 
-<h2>What types of input produce a value of NaN after parsing? Is it important to check for NaN values? Is it possible for a NaN value to trigger any of the other if-statements? If so, how and why?</h2>
+<h2>Let's say that your program needs to be easy to modify so that it works in parts of the country/world where the age ranges are different. How would you replace the numbers in your if statements with variables to make the program make sense? Or is it easier to just have the numbers be there? Does it matter?</h2>
 <p>
-	parsing input that isn't a number will return the value NaN. It is important to make sure programs will run smoothly. NaN wont trigger other if-statements because it is not a number that can be used in comparing.
+	yes, based on country the variables' values for age ranges should change.
 </p>
 
 <h2>What questions do you have?</h2>
