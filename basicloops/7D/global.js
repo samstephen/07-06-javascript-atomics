@@ -1,6 +1,6 @@
 var count = 1;
 var start = prompt("enter a num, dirtbag!")
-var end = prompt("do it again, chicken wing!")
+var end = prompt("do it again, chicken wang!")
 
 
 
