@@ -2,15 +2,6 @@
  * Created by samuelstephen on 7/6/15.
  */
 
-// 6D: Driver's Ed, Part 1
-
-
-//Prompt the user for their age and store it in a variable, then display any and all applicable messages below:
-var userAge = prompt("What's your age?");
-userAge = parseInt(userAge);
-
-console.log("User is " + userAge + ".");
-
 var nanAge    = "Sorry, but that's not a number.";
 var unborn    = "You haven't been born yet.";
 var cantDrive = "You can't drive yet, but you'll be able to in a few years.";
@@ -18,35 +9,30 @@ var driverAge = "You're eligible for a driver's license.";
 var drinkAge  = "Please don't drink and drive.";
 var rentAge   = "You can rent a car.";
 
+//Prompt the user for their age and store it in a variable, then display any and all applicable messages below:
 
-if (userAge >= 25) {
-	console.log(rentAge + " " + drinkAge + " " + driverAge);
-} else if (userAge >= 21) {
-	console.log(drinkAge + " " + driverAge);
-} else if (userAge >= 16) {
-	console.log(driverAge);
-} else if (userAge >= 0) {
-	console.log(cantDrive);
-} else if (userAge <  0) {
-	console.log(unborn);
-} else {
+var userAge = prompt("What's your age?");
+userAge = parseInt(userAge);
+
+if (isNaN(userAge)) {
 	console.log(nanAge);
 }
+if (userAge >= 25)	{
+	console.log(rentAge);
+}
+if (userAge >= 21)	{
+	console.log(drinkAge);
+}
+if (userAge >= 16)	{
+	console.log(driverAge);
+}
+if (userAge  < 16)	{
+	console.log(cantDrive);
+}
+if (userAge  <  0)  {
+	console.log(unborn);
+}
 
-
-/*
- * userAge >= 21 && console.log("Please don't drink and drive");
- * 
- * userAge >= 25 && console.log("You can rent a car");
- * 
- * userAge >= 16 && console.log("You're eligible for a driver's license");
- * 
- * userAge < 16 && console.log("You can't drive yet, but you'll be able to in a few years");
- * 
- * userAge < 0 && console.log("You haven't been born yet");
- * 
- * if (userAge = NaN) console.log("Sorry, but that's not a number");
- */
 
 // For example, if I am 27, I should get the messages for 16, 21, and 25. If I am 23, I should get the messages for 16 and 21, but not 25, 0, or negative.
 
@@ -105,3 +91,28 @@ if (userAge >= 25) {
 // These messages can be displayed as alerts or as logs to the console.
 
 // You will not need to use else or else if in this exercise.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
