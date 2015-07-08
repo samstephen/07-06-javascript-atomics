@@ -11,23 +11,23 @@ for (checkLeg = true; checkLeg;) {
   
   if ((firstLeg + secondLeg) < thirdLeg) {
     console.log(firstLeg + " + " + secondLeg + " < " + thirdLeg);
-    alert("This is not a valid triangle.");
+    alert("These sides do not make a triangle.");
     checkLeg = true;
     
    } else if ((secondLeg + thirdLeg) < firstLeg) {
     console.log(secondLeg + " + " + thirdLeg + " < " + firstLeg);
-    alert("This is not a valid triangle.");
+    alert("These sides do not make a triangle.");
     checkLeg = true;
     
   } else if ((firstLeg + thirdLeg) < secondLeg) {
     console.log(firstLeg + " + " + thirdLeg + " < " + secondLeg);
-    alert("This is not a valid triangle.");
+    alert("These sides do not make a triangle.");
     checkLeg = true;
   
  
   
   } else {
-    alert("This is a triangle");
+    alert("This is a bodacious triangle");
     checkLeg = false;
   }
 }
